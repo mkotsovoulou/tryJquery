@@ -1,0 +1,2 @@
+1) What is event.preventDefault() and why do you use it in video 4.4
+  
