@@ -1,0 +1,5 @@
+What is the DOM?
+What is JQuery?
+How do we include JQuery on our page?
+What is the document.ready function and why do we need it?
+How do we select HTML elements using JQuery?

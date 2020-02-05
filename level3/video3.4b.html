@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../style.css" rel="stylesheet">
+    <script src="../jquery-1.9.1.js"></script>
+</head>
+
+<body>
+    <div id="vacations" class="rendered">
+        <h1> Vacation Packages</h1>
+        <h3 style="font-style: italic;"> Filtering data using CSS classes</h3>
+
+        <div id="filters">
+            <button class="onsale-filter">On Sale Now</button>
+            <button class="expiring-filter">Expiring Soon</button>
+        </div>
+
+
+        <ul id="list">
+            <li class="vacation expiring" data-price="479.99"> <!-- using data tag attributes-->
+                <h2>Hawaiian Vacation</h2>
+                <h4> Comments on this deal:</h4>
+                <i>Amazing Deal</i> <br>
+                <i>Can't wait...</i>
+                <button>Get Price</button>
+            </li>
+            <li class="vacation onsale" data-price="649.99">
+                <h2>Asian East Vacation</h2>
+                <h4> Comments on this deal:</h4>
+                <i>Love it</i> <br>
+                <i>Ready for adventure!</i>
+                <button>Get Price</button>
+            </li>
+            <li class="vacation onsale" data-price="399.99">
+                <h2>European Vacation</h2>
+                <h4> Comments on this deal:</h4>
+                <i>No comments</i> <br>
+                <br>
+                <div>
+                    <button>Get Price</button>
+                </div>
+            </li>
+        </ul>
+
+
+        <h2 class="center" style="clear: both;"> Call us at 1-555-jquery to make a reservation</h2>
+    </div>
+    <script src="video3.4b.js"> </script>
+</body>
+
+</html>

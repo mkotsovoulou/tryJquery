@@ -1,0 +1,16 @@
+1. Which is the descendant selector in the following code?
+    $("#destinations li")
+    and what does it mean?
+
+2. What is the difference between the descendand selector and the child selector?
+
+3. Which one is faster: traversing the DOM of using child selectors?
+
+4. In video2.2.html, which element will be selected if you type $("li").first.parent();
+
+5. In video2.2.html, which element will be selected if you type $("ul").parent();
+
+6. In video2.2.html, which elements will be selected if you type $("#destinations").children("li");
+   and which elements will be selected if you type $("#destinations").find("li") ;
+
+   

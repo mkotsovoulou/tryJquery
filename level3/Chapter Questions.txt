@@ -1,0 +1,16 @@
+
+1. why the Jquery code in video3.1.js is not optimal?
+
+2. What is Event-Delegation and why it is important?
+
+3.  When will this code execute? and what does it do?
+    $("button").on('click', function(e) {
+      $(this).remove();
+    }); 
+
+4.  When will this code execute? and what does it do?
+    $(".vacation").on("click", "button", function(e) {
+        $(this).remove();
+
+    });
+   
